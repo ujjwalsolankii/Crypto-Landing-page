@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+}
+.navbar div {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-overflow: hidden;
+}
+.navbar div img {
+  position: relative;
+  top: -3px;
+  left: -15px;
+  inline-size: 100px;
+  border-right: 1px solid white;
+  padding-right: 17px;
+  width: 68px;
+}
+.navbar div ul {
+  position: relative;
+  top: 0;
+  left: -50px;
+  display: inline;
+  font-family: Arial;
+}
+.navbar div li {
+  position: relative;
+  top: -10px;
+  left: -40px;
+  display: inline-block;
+  word-spacing: 0px;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-overflow: 100%;
+}
+.navbar div li:hover {
+  opacity: 0.9;
+  /* font-weight: bold; */
+  text-shadow: 0px 0px 4px white;
+}
+
+.navbar div button {
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 8px;
+  background-color: mediumvioletred;
+  position: relative;
+  top: -10px;
+  left: -20px;
+  color: white;
+  width: 80px;
+  font-weight: bold;
+  height: 21px;
+  border: transparent;
+  text-align: center;
+}
+.navbar div button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: mediumvioletred;
+  border: 2px solid mediumvioletred;
+  box-shadow: 0px 0px 6px mediumvioletred;
+}
+
+.hero {
+  width: 100%;
+  background-image: url("assets/bg.png");
+  height: 415px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid black;
+}
+.hero h1 {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  color: white;
+  font-size: 40px;
+  font-family: Arial;
+  text-decoration: none;
+  text-transform: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.hero p {
+  position: relative;
+  top: 55px;
+  left: 0px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  text-decoration: none;
+  text-transform: none;
+}
+.hero button {
+  border-radius: 6px;
+  font-size: 12px;
+  background-color: mediumvioletred;
+  position: relative;
+  top: 90px;
+  left: 0px;
+  color: white;
+  width: 170px;
+  font-weight: bold;
+  height: 35px;
+  border: transparent;
+  text-align: center;
+}
+.hero button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: mediumvioletred;
+  border: 2px solid mediumvioletred;
+  box-shadow: 0px 0px 10px mediumvioletred;
+}
